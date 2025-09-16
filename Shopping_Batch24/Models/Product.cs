@@ -24,5 +24,7 @@ namespace Shopping_Batch24.Models
         public int CategoryId { get; set; }
 
         public Category Category { get; set; }
+
+        public bool IsActive { get; set; }
     }
 }
